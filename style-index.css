@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f2f2f2;
+}
+
+header {
+  background-color: #0077cc;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.container {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+  background: white;
+}
+
+article {
+  margin-bottom: 30px;
+}
+
+article h2 {
+  color: #0077cc;
+}
+
+.subscribe-box {
+  border-top: 1px solid #ccc;
+  padding-top: 20px;
+}
+
+input[type="email"] {
+  padding: 10px;
+  width: 70%;
+  margin-right: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #0077cc;
+  color: white;
+  border: none;
+  cursor: pointer;
+}

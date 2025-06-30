@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Artikel Santai</title>
+  <link rel="stylesheet" href="style-index.css">
+
+  <!-- 📌 Google Tag Manager HEAD (tempelkan di sini nanti) -->
+</head>
+<body>
+
+  <!-- 📌 Google Tag Manager BODY (tempelkan di sini nanti) -->
+
+  <header>
+    <h1>Artikel Santai</h1>
+    <p>Berbagi cerita, ide, dan inspirasi</p>
+  </header>
+
+  <div class="container">
+    <article>
+      <h2>5 Kebiasaan Baik di Pagi Hari</h2>
+      <p>Bangun pagi memang sulit, tapi ada banyak manfaatnya. Mulailah hari dengan hal kecil seperti minum air putih, berolahraga ringan, dan menghindari ponsel saat bangun...</p>
+    </article>
+
+    <article>
+      <h2>Mengapa Menulis Bisa Membantu Kesehatan Mental?</h2>
+      <p>Menulis bukan hanya untuk penulis. Ini adalah cara untuk mengeluarkan isi hati, memahami perasaan, dan menemukan ketenangan. Mulailah dengan jurnal harian sederhana...</p>
+    </article>
+
+    <div class="subscribe-box">
+      <h3>Berlangganan Artikel Baru</h3>
+      <form id="subscribeForm">
+        <input type="email" id="emailInput" placeholder="Masukkan email kamu" required>
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+  </div>
+
+  <script>
+    document.getElementById("subscribeForm").addEventListener("submit", function(e) {
+      e.preventDefault();
+      const email = document.getElementById("emailInput").value;
+      alert("Terima kasih sudah subscribe!\nEmail: " + email);
+    });
+  </script>
+</body>
+</html>
